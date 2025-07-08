@@ -1,0 +1,93 @@
+
+
+.open-sans-Normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color:#474747;
+}
+
+.btn-primary{
+    background-color:#FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Header */
+
+.header{
+    background-image: url('../Media/header-BG.jpg');
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content{
+    max-width:580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: lightblue;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    color: aliceblue;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 300;
+    color: lightblue;
+}.banner-pfp{
+    width: 580px;
+}
